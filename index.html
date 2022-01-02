@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <title>CRUD con Local Storage</title>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="./javascript.js"></script>   
+    <link rel="stylesheet" href="CSS.css">
+    
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+
+                <h1 class="jumbotron">Ejemplo de CRUD usando Local Storage</h1>
+
+                <table id="grid" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Trabajo</th>
+                            <th>Edad</th>
+                            <th style="width:80px;">
+
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <input id="nombre" type="text" class="form-control" />
+                            </th>
+                            <th>
+                                <input id="trabajo" type="text" class="form-control" />
+                            </th>
+                            <th>
+                                <input id="edad" type="number" class="form-control" />
+                            </th>
+                            <th>
+                                <button type="button" id="Guardar" class="GuardarBoton">Guardar</button>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+button.GuardarBoton{
+    color: #c51682;
+    box-shadow: 0px 0px 0px 10px #f041e74f;
+    background: hsl(0, 95%, 33%);
+    border-radius: .6rem;
+}
+
+button.GuardarBoton:hover{
+    background-color: rgb(243, 6, 136);
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(57, 6, 240);
+    border-radius: 4px;
+    color: rgb(17, 119, 3);
+}
+
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: rgb(162, 189, 9);
+}
+
+button{
+    background: rgb(184, 9, 9);
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+    color: rgb(50, 12, 99);
+}
+
+button:hover{
+    background:#eb0619 ;
+}
